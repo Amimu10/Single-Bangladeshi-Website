@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Playfair+Display&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- ===========
+    header start 
+    ==============-->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/unnamed.jpg"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Member</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Success Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex search-box " role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search area or age"
+                                aria-label="Search">
+                            <i class="fas fa-search"></i></a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- ===========
+    banner start 
+    ==============-->
+            <section class="banner">
+                <div class="container">
+                    <div class="row align-items-center ">
+                        <div class="col-md-6">
+                            <div class="banner-heading">
+                                <h1>Find your perfect match</h1>
+                            </div>
+                            <div class="banner-text">
+                                <!-- <p>Join our community of single Bangladeshi men and women looking for
+                                        love and start your journey towards a fulfilling relationship today.
+                                    </p> -->
+                                <p>Happiness is only real when shared with someone special.<br> Join our website
+                                    today
+                                    and find your soulmate, the one who<br> will share all of life's joys with you
+                                </p>
+                            </div>
+                            <div class="banner-buttons">
+                                <a href="#" class="btn btn-primary">Featured Men</a>
+                                <a href="#" class="btn btn-secondary">Featured Women</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="my-btn" type="submit">Join now</a>
+                            <form class="banner-form mt-4">
+                                <!-- <h2 class="form-heading">Join Now</h2> -->
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Age" required>
+                                </div>
+                                <div class="form-group select-input">
+                                    <select class="form-control">
+                                        <option value="" disabled selected>Preferred Partner Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn-register">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- ===============
+  community start 
+=================-->
+    <section class="community">
+        <div class="container">
+            <div class="community-head text-center">
+                <h2>Meet Our Community</h2>
+                <p>Looking for love in all the wrong places? Our website is the perfect place to start your journey
+                    towards finding your true love and your lifelong partner.</p>
+                <h4>Most Popular Members</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/community/1.jpg" alt="Profile Picture">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">John Doe</h2>
+                                <p class="card-subtitle">Age: 30</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
+                                    libero odio. Fusce euismod massa est, sed imperdiet quam euismod sit amet. Mauris
+                                    nec enim ac urna auctor cursus eu nec urna.</p>
+                                <a href="#" class="card-link my-btn">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/community/2.jpg" alt="Profile Picture">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">John Doe</h2>
+                                <p class="card-subtitle">Age: 30</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
+                                    libero odio. Fusce euismod massa est, sed imperdiet quam euismod sit amet. Mauris
+                                    nec enim ac urna auctor cursus eu nec urna.</p>
+                                <a href="#" class="card-link my-btn">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/community/3.jpg" alt="Profile Picture">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">John Doe</h2>
+                                <p class="card-subtitle">Age: 30</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
+                                    libero odio. Fusce euismod massa est, sed imperdiet quam euismod sit amet. Mauris
+                                    nec enim ac urna auctor cursus eu nec urna.</p>
+                                <a href="#" class="card-link my-btn">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/community/4.jpg" alt="Profile Picture">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">John Doe</h2>
+                                <p class="card-subtitle">Age: 30</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
+                                    libero odio. Fusce euismod massa est, sed imperdiet quam euismod sit amet. Mauris
+                                    nec enim ac urna auctor cursus eu nec urna.</p>
+                                <a href="#" class="card-link my-btn">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/community/5.jpg" alt="Profile Picture">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">John Doe</h2>
+                                <p class="card-subtitle">Age: 30</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
+                                    libero odio. Fusce euismod massa est, sed imperdiet quam euismod sit amet. Mauris
+                                    nec enim ac urna auctor cursus eu nec urna.</p>
+                                <a href="#" class="card-link my-btn">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/community/6.jpg" alt="Profile Picture">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">John Doe</h2>
+                                <p class="card-subtitle">Age: 30</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
+                                    libero odio. Fusce euismod massa est, sed imperdiet quam euismod sit amet. Mauris
+                                    nec enim ac urna auctor cursus eu nec urna.</p>
+                                <a href="#" class="card-link my-btn">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="meet-btn text-center">
+                <p>The perfect match is out there waiting for you. Let us help you find them<br>
+                    and start building a life
+                    full of love, happiness, and endless possibilities.</p>
+                <a href="#" class=" my-btn">See More</a>
+            </div>
+
+            <!-- ===============
+  benefit start 
+=================-->
+            <div class="benefit text-center">
+                <div class="conatiner">
+                    <div class="benefit-head">
+                        <h2>Unlock Premium Benefits and Find Your Perfect Match</h2>
+                        <p>Experience the Full Potential of Our Site and Meet Your Soulmate with Premium Membership</p>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4>Get priority access to new members:</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>As a premium member, you'll be the first to see and connect with new members on
+                                        our site.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4>Advanced search filters:</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p> Our premium members get access to advanced search filters, allowing you to find
+                                        the perfect match based on your preferences.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4>Unlimited messaging:</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Say goodbye to message limits! With premium membership, you can send and receive
+                                        unlimited messages to anyone on our site.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4>Verified profiles:</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>We verify the profiles of our premium members, giving you peace of mind and
+                                        ensuring a safe and secure online dating experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4>Exclusive events:</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p> As a premium member, you'll get exclusive access to our events and social
+                                        gatherings, where you can meet other like-minded singles and build meaningful
+                                        connections.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class=" my-btn premium-btn">Go Premium</a>
+                </div>
+            </div>
+
+            <!-- ===============
+  success start 
+=================-->
+            <section class="success">
+                <div class="container">
+                    <div class="success-head text-center">
+                        <h2>Our Success Stories</h2>
+                        <p>Read about the inspiring love stories of couples who found each other on our site. From
+                            chance encounters to long-distance romances, our members have found love in all sorts of
+                            ways. Let their stories inspire you on your own journey towards finding your perfect match.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="success-cards">
+                                <div class="card">
+                                    <img src="images/success/1.jpg" class="card-img-top" alt="Success Story 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">John & Emily</h5>
+                                        <p class="card-text">"I never thought I'd find someone who understands and
+                                            supports me like Emily does. We connected on a deep level from our very
+                                            first conversation, and now we're happily married!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="success-cards">
+                                <div class="card">
+                                    <img src="images/success/2.jpg" class="card-img-top" alt="Success Story 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">John & Emily</h5>
+                                        <p class="card-text">"I never thought I'd find someone who understands and
+                                            supports me like Emily does. We connected on a deep level from our very
+                                            first conversation, and now we're happily married!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="success-cards">
+                                <div class="card">
+                                    <img src="images/success/3.jpg" class="card-img-top" alt="Success Story 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">John & Emily</h5>
+                                        <p class="card-text">"I never thought I'd find someone who understands and
+                                            supports me like Emily does. We connected on a deep level from our very
+                                            first conversation, and now we're happily married!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="success-cards">
+                                <div class="card">
+                                    <img src="images/success/4.jpg" class="card-img-top" alt="Success Story 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">John & Emily</h5>
+                                        <p class="card-text">"I never thought I'd find someone who understands and
+                                            supports me like Emily does. We connected on a deep level from our very
+                                            first conversation, and now we're happily married!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="success-cards">
+                                <div class="card">
+                                    <img src="images/success/5.jpg" class="card-img-top" alt="Success Story 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">John & Emily</h5>
+                                        <p class="card-text">"I never thought I'd find someone who understands and
+                                            supports me like Emily does. We connected on a deep level from our very
+                                            first conversation, and now we're happily married!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="success-cards">
+                                <div class="card">
+                                    <img src="images/success/6.jpg" class="card-img-top" alt="Success Story 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">John & Emily</h5>
+                                        <p class="card-text">"I never thought I'd find someone who understands and
+                                            supports me like Emily does. We connected on a deep level from our very
+                                            first conversation, and now we're happily married!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="success-btn text-center">
+                        <a href="#" class=" my-btn">See More</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===============
+              feedback start 
+          =================-->
+            <section id="feedback" class="py-5">
+                <div class="container">
+                   <div class="feedback-head text-center">
+                    <h2>What Our Members Are Saying</h2>
+                    <p>Here are some testimonials from our satisfied clients who found their perfect match through our platform.</p>
+                   </div>
+                    <div id="review-carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-4 d-block d-lg-flex">
+                                        <div class="card text-center">
+                                            <img src="images/feedback/1.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">John Smith</h5>
+                                                <p class="card-text">Marketing Manager, 32</p>
+                                                <p class="card-text">"I found my perfect match on this site. The
+                                                    premium membership was definitely worth it."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-block d-lg-flex">
+                                        <div class="card text-center">
+                                            <img src="images/feedback/2.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">David Lee</h5>
+                                                <p class="card-text">Software Engineer, 29</p>
+                                                <p class="card-text">"I was skeptical at first, but after
+                                                    joining as a premium member, I met the love of my life."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-block d-lg-flex">
+                                        <div class="card text-center">
+                                            <img src="images/feedback/3.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">David Lee</h5>
+                                                <p class="card-text">Software Engineer, 29</p>
+                                                <p class="card-text">"I was skeptical at first, but after
+                                                    joining as a premium member, I met the love of my life."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-4 d-block d-lg-flex">
+                                        <div class="card text-center">
+                                            <img src="images/feedback/4.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Emily Chen</h5>
+                                                <p class="card-text">Graphic Designer, 27</p>
+                                                <p class="card-text">"I was tired of swiping through endless
+                                                    profiles. This site provided a much more personalized
+                                                    experience."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-block d-lg-flex">
+                                        <div class="card text-center">
+                                            <img src="images/feedback/5.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Samantha Williams</h5>
+                                                <p class="card-text">Entrepreneur, 31</p>
+                                                <p class="card-text">"The premium membership allowed me to
+                                                    connect with high-quality matches who were serious about
+                                                    finding a partner."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-block d-lg-flex">
+                                        <div class="card text-center">
+                                            <img src="images/feedback/6.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Samantha Williams</h5>
+                                                <p class="card-text">Entrepreneur, 31</p>
+                                                <p class="card-text">"The premium membership allowed me to
+                                                    connect with high-quality matches who were serious about
+                                                    finding a partner."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <div class="benefit-section">
+                <h2>Unlock Premium Benefits and Find Your Perfect Match</h2>
+              <div class="list-box text-center">
+                <div class="list d-flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Get priority access to new members: As a premium member, you'll be the first to see and connect
+                        with new members on our site.</p>
+                </div>
+                <div class="list d-flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Advanced search filters: Our premium members get access to advanced search filters, allowing you
+                        to find the perfect match based on your preferences.</p>
+                </div>
+                <div class="list d-flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>
+                    <p>Unlimited messaging: Say goodbye to message limits! With premium membership, you can send and
+                        receive unlimited messages to anyone on our site.</p>
+                </div>
+                <div class="list d-flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Verified profiles: We verify the profiles of our premium members, giving you peace of mind and
+                        ensuring a safe and secure online dating experience.</p>
+                </div>
+                <div class="list d-flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Exclusive events: As a premium member, you'll get exclusive access to our events and social
+                        gatherings, where you can meet other like-minded singles and build meaningful connections.</p>
+                </div>
+                <div class="list d-flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Personalized support: Our premium members receive personalized support from our customer service
+                        team, ensuring that you have the best experience possible on our site.</p>
+                </div>
+              </div>
+            </div> -->
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
